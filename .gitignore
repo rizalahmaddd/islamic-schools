@@ -1,0 +1,70 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+
+# Logs & Debug
+*.log
+/storage/logs/
+/storage/pail/
+
+# Database & Backups
+/database/*.sqlite
+/database/*.sqlite-journal
+*.sql
+*.sqlite
+*.db
+/backups/
+/storage/dumps/
+
+# Dependencies & Build
+/node_modules/
+/vendor/
+/public/build/
+/public/hot/
+/public/storage/
+/public/fonts-manifest.dev.json
+
+# Cache & Keys
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+.phpunit.result.cache
+.phpunit.cache
+/test-results/
+
+# IDE & Editor Configs
+.DS_Store
+Thumbs.db
+/.idea/
+/.vscode/*
+!/.vscode/settings.json
+/.zed/
+/.cursor/
+/.nova/
+/.codex/
+/.playwright-mcp/
+.phpactor.json
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+
+# Archives & Temporary
+*.zip
+/auth.json
+/promo/
+
+# Private & Internal Documentation
+/docs/roadmap.md
+/docs/ROADMAP.md
+/docs/prd.md
+/docs/PRD.md
+/docs/todo.md
+/docs/TODO.md
+/docs/notes.md
+/docs/private/
+/docs/internal/
+
